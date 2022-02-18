@@ -6,5 +6,3 @@ apt-get update && apt-get install nginx curl vim tshark -y
 
 systemctl enable nginx
 systemctl start nginx
-
-bash /vagrant/boot/curl.sh &
